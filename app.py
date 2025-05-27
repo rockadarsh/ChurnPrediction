@@ -13,7 +13,7 @@ with open("encoders.pkl", "rb") as f:
     encoders = pickle.load(f)
 
 st.set_page_config(page_title="Customer Churn Predictor", layout="centered")
-st.title("📉 Customer Churn Prediction")
+st.title("📉 Customer Churn Prediction Model")
 st.write("Fill in the customer details to predict if they are likely to churn.")
 
 # Simplified Inputs
