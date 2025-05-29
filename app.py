@@ -13,7 +13,7 @@ with open("encoders.pkl", "rb") as f:
     encoders = pickle.load(f)
 
 st.set_page_config(page_title="Churn Predictor", layout="wide")
-st.title("📊 Customer Churn Prediction App")
+st.title("📊 Customer Churn Prediction Model")
 
 tab1, tab2 = st.tabs(["🔍 Predict One", "📁 Bulk Prediction"])
 
